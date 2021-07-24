@@ -54,7 +54,7 @@ trainX = np.reshape(trainX, (trainX.shape[0], 1, trainX.shape[1]))
 testX = np.reshape(testX, (testX.shape[0], 1, testX.shape[1]))
 
 # create and fit the LSTM network, optimizer=adam, 25 neurons, dropout 0.1
-epochs = 1
+epochs = 100
 batch_size = 100
 neurons = 100
 model = Sequential()
